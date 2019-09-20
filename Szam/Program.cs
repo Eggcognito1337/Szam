@@ -13,7 +13,11 @@ namespace Szam
             List<int> l = new List<int>();
             int szam = 0;
 
-            for (int i = 0; i < 10; i++)
+            int db = 0;
+            Console.WriteLine("Adja meg, hogy mennyi számot akar: ");
+            db = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 0; i < db; i++)
             {
                 Console.Write("Adjon meg egy számot: ");
                 szam = Convert.ToInt32(Console.ReadLine());
