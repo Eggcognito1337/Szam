@@ -26,6 +26,8 @@ namespace Szam
 
             int max = l.Max();
             Console.WriteLine("Legnagyobb szám: " + max);
+            int min = l.Min();
+            Console.WriteLine("Legnagyobb szám: " + max);
 
 
             Console.ReadKey();
